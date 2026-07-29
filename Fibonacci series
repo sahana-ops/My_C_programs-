@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+int i=1,f,f1,f2,n;
+printf("Enter the Fibonacci series needed:");
+scanf("%d",&n);
+f=0;
+f1=1;
+f2=1;
+do
+{
+i++;
+printf("%d",f);
+f1=f2;
+f2=f;
+f=f1+f2;
+}
+while(i<=n)
+}
